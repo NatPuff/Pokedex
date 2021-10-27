@@ -10,7 +10,7 @@ import Foundation
 struct PokemonData: Decodable, Identifiable {
     let id: Int
     let name: String
-    //let imageURL: String
+    let imageUrl: String
     let type: String
     let weight: Float
     let height: Float
@@ -19,6 +19,6 @@ struct PokemonData: Decodable, Identifiable {
     let defense: Float
     
 }
-let MockData: [PokemonData] = [
-    .init(id: 0, name: "JigglyPuff",  type: "Normal/Fairy", weight: 15, height: 0.5, description: "Puff as seen frm above:", attack: 100, defense: 100),
-    .init(id: 1, name: "JigglyPuff but again",  type: "Normal/Fairy", weight: 15, height: 0.5, description: "Puff as seen from above but a second time", attack: 100, defense: 100)]
+//let MockData: [PokemonData] = [
+//    .init(id: 0, name: "JigglyPuff",  type: "Normal/Fairy", weight: 15, height: 0.5, description: "Puff as seen frm above:", attack: 100, defense: 100),
+//    .init(id: 1, name: "JigglyPuff but again",  type: "Normal/Fairy", weight: 15, height: 0.5, description: "Puff as seen from above but a second time", attack: 100, defense: 100)]
