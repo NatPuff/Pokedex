@@ -15,6 +15,7 @@
 		7D0CB89C27205B6400F34B74 /* PokemonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CB89B27205B6400F34B74 /* PokemonData.swift */; };
 		7D0CB89E27206A7900F34B74 /* PokemonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0CB89D27206A7900F34B74 /* PokemonViewModel.swift */; };
 		7D32AA152729924E00652C8D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7D32AA142729924E00652C8D /* Kingfisher */; };
+		7DE2EF06272AD7B200399208 /* PokemonDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2EF05272AD7B200399208 /* PokemonDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7D0CB89927205A6A00F34B74 /* PokedexList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexList.swift; sourceTree = "<group>"; };
 		7D0CB89B27205B6400F34B74 /* PokemonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonData.swift; sourceTree = "<group>"; };
 		7D0CB89D27206A7900F34B74 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		7DE2EF05272AD7B200399208 /* PokemonDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				7D0CB88A27204BE800F34B74 /* PokemonCards.swift */,
+				7DE2EF05272AD7B200399208 /* PokemonDetails.swift */,
 				7D0CB89927205A6A00F34B74 /* PokedexList.swift */,
 			);
 			path = View;
@@ -180,6 +183,7 @@
 			files = (
 				7D0CB88B27204BE800F34B74 /* PokemonCards.swift in Sources */,
 				7D0CB89E27206A7900F34B74 /* PokemonViewModel.swift in Sources */,
+				7DE2EF06272AD7B200399208 /* PokemonDetails.swift in Sources */,
 				7D0CB88927204BE800F34B74 /* PokedexApp.swift in Sources */,
 				7D0CB89A27205A6A00F34B74 /* PokedexList.swift in Sources */,
 				7D0CB89C27205B6400F34B74 /* PokemonData.swift in Sources */,
